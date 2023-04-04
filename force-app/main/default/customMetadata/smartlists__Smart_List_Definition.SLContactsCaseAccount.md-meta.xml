@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>SLContactsCaseAccount</label>
+    <protected>false</protected>
+    <values>
+        <field>smartlists__Allowed_Extensions__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Data_Provider_Class__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Data_Source_Type__c</field>
+        <value xsi:type="xsd:string">SOQL with Sharing</value>
+    </values>
+    <values>
+        <field>smartlists__Default_Sort_Direction__c</field>
+        <value xsi:type="xsd:string">desc</value>
+    </values>
+    <values>
+        <field>smartlists__Default_Sort_Field__c</field>
+        <value xsi:type="xsd:string">CreatedDate</value>
+    </values>
+    <values>
+        <field>smartlists__Display_Quick_Filters_All_the_Time__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Enable_CRUD_Actions__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__List_Icon__c</field>
+        <value xsi:type="xsd:string">standard:contact</value>
+    </values>
+    <values>
+        <field>smartlists__List_Label__c</field>
+        <value xsi:type="xsd:string">Account Cases SmartList</value>
+    </values>
+    <values>
+        <field>smartlists__Max_Row_Selected__c</field>
+        <value xsi:type="xsd:double">2000.0</value>
+    </values>
+    <values>
+        <field>smartlists__Maximum_Number_of_Records__c</field>
+        <value xsi:type="xsd:double">2000.0</value>
+    </values>
+    <values>
+        <field>smartlists__Number_of_Records_per_Page__c</field>
+        <value xsi:type="xsd:double">10.0</value>
+    </values>
+    <values>
+        <field>smartlists__Parent_Id_Field__c</field>
+        <value xsi:type="xsd:string">AccountId</value>
+    </values>
+    <values>
+        <field>smartlists__Parent_Key_Field__c</field>
+        <value xsi:type="xsd:string">AccountId</value>
+    </values>
+    <values>
+        <field>smartlists__Parent_Object__c</field>
+        <value xsi:type="xsd:string">Case</value>
+    </values>
+    <values>
+        <field>smartlists__Row_Key__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Row_Number_Start__c</field>
+        <value xsi:type="xsd:double">0.0</value>
+    </values>
+    <values>
+        <field>smartlists__SOQL_Default_Scope__c</field>
+        <value xsi:type="xsd:string">everything</value>
+    </values>
+    <values>
+        <field>smartlists__SOQL_Filter_Type__c</field>
+        <value xsi:type="xsd:string">All</value>
+    </values>
+    <values>
+        <field>smartlists__SOQL_Filter__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__SOQL_Scope_All__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__SOQL_Scope_My_Team__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__SOQL_Scope_My__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__SObject__c</field>
+        <value xsi:type="xsd:string">Contact</value>
+    </values>
+    <values>
+        <field>smartlists__Selectable_Rows__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__Show_List_Header__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__Show_Row_Number_Column__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Show_SOSL_Search_in_Quick_Filter__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Wrap_Text_Max_Lines__c</field>
+        <value xsi:type="xsd:double">3.0</value>
+    </values>
+</CustomMetadata>

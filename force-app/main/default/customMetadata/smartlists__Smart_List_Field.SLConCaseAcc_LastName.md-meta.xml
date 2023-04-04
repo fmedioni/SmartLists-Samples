@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>SLConCaseAcc_LastName</label>
+    <protected>false</protected>
+    <values>
+        <field>smartlists__Column_Width__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Default_Sort_Field__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__Display_Order__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Display_Position__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>smartlists__Display_Position_in_Quick_Filters__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>smartlists__Display_Type__c</field>
+        <value xsi:type="xsd:string">HYPERLINK_DETAIL</value>
+    </values>
+    <values>
+        <field>smartlists__Field_Label__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Field_Name__c</field>
+        <value xsi:type="xsd:string">LastName</value>
+    </values>
+    <values>
+        <field>smartlists__File_Edit__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Filterable__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Hyperlink_to_Detail_Id_Field__c</field>
+        <value xsi:type="xsd:string">Id</value>
+    </values>
+    <values>
+        <field>smartlists__List_Field__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__Lookup_Subtitle_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Lookup_in_Quick_Filters__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Quick_Filters_Field__c</field>
+        <value xsi:type="xsd:string">Yes if Filterable</value>
+    </values>
+    <values>
+        <field>smartlists__Smart_List_Definition__c</field>
+        <value xsi:type="xsd:string">SLContactsCaseAccount</value>
+    </values>
+    <values>
+        <field>smartlists__Sortable__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Sortable_in_List__c</field>
+        <value xsi:type="xsd:string">Yes if Sortable</value>
+    </values>
+    <values>
+        <field>smartlists__Wrap_Text__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+</CustomMetadata>

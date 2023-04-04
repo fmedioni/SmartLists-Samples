@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>SLAccCases_Open</label>
+    <protected>false</protected>
+    <values>
+        <field>smartlists__Default_Filter__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__Filter_Label__c</field>
+        <value xsi:type="xsd:string">Open Cases</value>
+    </values>
+    <values>
+        <field>smartlists__SOQL_Filter__c</field>
+        <value xsi:type="xsd:string">IsClosed = false</value>
+    </values>
+    <values>
+        <field>smartlists__Smart_List_Definition__c</field>
+        <value xsi:type="xsd:string">SLAccountCases</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>SLAccCase-ReopenCaseRow</label>
+    <protected>false</protected>
+    <values>
+        <field>smartlists__Action_Label__c</field>
+        <value xsi:type="xsd:string">Reopen Case</value>
+    </values>
+    <values>
+        <field>smartlists__Category__c</field>
+        <value xsi:type="xsd:string">Autolaunched Flow</value>
+    </values>
+    <values>
+        <field>smartlists__Custom_Permission__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Display_Position__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>smartlists__Flow_Name__c</field>
+        <value xsi:type="xsd:string">SLCases_Re_Open_Cases</value>
+    </values>
+    <values>
+        <field>smartlists__Refresh_After_Execution__c</field>
+        <value xsi:type="xsd:string">Row</value>
+    </values>
+    <values>
+        <field>smartlists__Screenflow_Modal_Height__c</field>
+        <value xsi:type="xsd:double">400.0</value>
+    </values>
+    <values>
+        <field>smartlists__Smart_List_Definition__c</field>
+        <value xsi:type="xsd:string">SLAccountCases</value>
+    </values>
+    <values>
+        <field>smartlists__Type__c</field>
+        <value xsi:type="xsd:string">Row Action</value>
+    </values>
+</CustomMetadata>
