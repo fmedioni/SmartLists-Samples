@@ -1,4 +1,4 @@
-# Smart Lists Samples
+# Smart Lists Samples for Summer 23
 
 In this repository, you will find several predefined Smart Lists covering all the use cases of the component.
 
