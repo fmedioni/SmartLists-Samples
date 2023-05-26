@@ -76,7 +76,7 @@ This list includes:
 - Hyperlinks to Detail record page
 - Custom Apex Data Source
 
-This list can be added to the Home Page
+This list MUST be added to an Account Detail Page
 
 ## SLContactsCaseAccount: List of Contacts related to the Account of a parent Case
 
