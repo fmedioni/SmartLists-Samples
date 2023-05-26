@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>SLHomeLeads_RatingPL</label>
+    <label>STHomeLeads_Status</label>
     <protected>false</protected>
     <values>
         <field>smartlists__Badge_Style_Field__c</field>
@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>smartlists__Display_Position__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>smartlists__Display_Position_in_Quick_Filters__c</field>
@@ -40,7 +40,7 @@
     </values>
     <values>
         <field>smartlists__Field_Name__c</field>
-        <value xsi:type="xsd:string">Rating</value>
+        <value xsi:type="xsd:string">Status</value>
     </values>
     <values>
         <field>smartlists__File_Edit__c</field>
@@ -56,7 +56,7 @@
     </values>
     <values>
         <field>smartlists__List_Field__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>smartlists__Lookup_Subtitle_Field__c</field>
@@ -72,7 +72,7 @@
     </values>
     <values>
         <field>smartlists__Smart_List_Definition__c</field>
-        <value xsi:type="xsd:string">SLHomeLeads</value>
+        <value xsi:type="xsd:string">STHomeLeads</value>
     </values>
     <values>
         <field>smartlists__Sortable__c</field>
@@ -80,11 +80,11 @@
     </values>
     <values>
         <field>smartlists__Sortable_in_List__c</field>
-        <value xsi:type="xsd:string">No</value>
+        <value xsi:type="xsd:string">Yes if Sortable</value>
     </values>
     <values>
         <field>smartlists__Tile_Header__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>smartlists__Wrap_Text__c</field>

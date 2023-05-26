@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>smartlists__Data_Provider_Class__c</field>
-        <value xsi:type="xsd:string">SLAccountApexDataSourceWithParent</value>
+        <value xsi:type="xsd:string">SLAccountPageApexWithParent</value>
     </values>
     <values>
         <field>smartlists__Data_Source_Type__c</field>
@@ -23,11 +23,27 @@
         <value xsi:type="xsd:string">CreatedDate</value>
     </values>
     <values>
+        <field>smartlists__Display_Mode__c</field>
+        <value xsi:type="xsd:string">Table</value>
+    </values>
+    <values>
         <field>smartlists__Display_Quick_Filters_All_the_Time__c</field>
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>smartlists__Enable_CRUD_Actions__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Enable_Delete_Record_Action__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Enable_Edit_Record_Action__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Enable_New_Record_Action__c</field>
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
@@ -87,6 +103,10 @@
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
+        <field>smartlists__SOQL_Scope_My_Subordinates__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
         <field>smartlists__SOQL_Scope_My_Team__c</field>
         <value xsi:type="xsd:boolean">false</value>
     </values>
@@ -111,8 +131,16 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
+        <field>smartlists__Show_SOSL_Search__c</field>
+        <value xsi:type="xsd:string">No</value>
+    </values>
+    <values>
         <field>smartlists__Show_SOSL_Search_in_Quick_Filter__c</field>
         <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__Tile_Layout__c</field>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>smartlists__Wrap_Text_Max_Lines__c</field>

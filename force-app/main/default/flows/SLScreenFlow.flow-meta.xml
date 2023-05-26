@@ -76,8 +76,8 @@
         </rules>
     </decisions>
     <dynamicChoiceSets>
-        <name>casesChoiceSet</name>
-        <collectionReference>selectedCases</collectionReference>
+        <name>selectedCasesChoiceSet</name>
+        <collectionReference>AccountCasesSmartList.selectedRecords</collectionReference>
         <dataType>String</dataType>
         <displayField>CaseNumber</displayField>
         <object>Case</object>
@@ -122,8 +122,13 @@
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
         <fields>
+            <name>DisplaySelectionCount</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(116, 116, 116);&quot;&gt;Number of selected cases: &lt;/strong&gt;&lt;span style=&quot;color: rgb(116, 116, 116);&quot;&gt;{!AccountCasesSmartList.selectedRecordsCount}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
             <name>selectedCasesRB</name>
-            <choiceReferences>casesChoiceSet</choiceReferences>
+            <choiceReferences>selectedCasesChoiceSet</choiceReferences>
             <dataType>String</dataType>
             <fieldText>Selected Cases</fieldText>
             <fieldType>RadioButtons</fieldType>
@@ -161,7 +166,7 @@
         <allowPause>true</allowPause>
         <fields>
             <name>DisplaySelectedLeadRecord</name>
-            <fieldText>&lt;p&gt;&lt;strong&gt;Selected Lead&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Id: {!selectedLead.Id}&lt;/p&gt;&lt;p&gt;Name: {!selectedLead.Name}&lt;/p&gt;&lt;p&gt;Email: {!selectedLead.Email}&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(116, 116, 166);&quot;&gt;Selected Lead&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(116, 116, 166);&quot;&gt;Id: &lt;/span&gt;&lt;span style=&quot;color: rgb(116, 116, 166); background-color: rgb(255, 255, 255);&quot;&gt;{!LeadsSmartList.selectedRecord.Id}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(116, 116, 166);&quot;&gt;Name: {!LeadsSmartList.selectedRecord.Name}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(116, 116, 166);&quot;&gt;Email: {!LeadsSmartList.selectedRecord.Email}&lt;/span&gt;&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
@@ -256,7 +261,7 @@
             <inputParameters>
                 <name>minRowSelected</name>
                 <value>
-                    <numberValue>1.0</numberValue>
+                    <numberValue>2.0</numberValue>
                 </value>
             </inputParameters>
             <inputParameters>
@@ -267,10 +272,7 @@
             </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
-            <outputParameters>
-                <assignToReference>selectedCases</assignToReference>
-                <name>selectedRecords</name>
-            </outputParameters>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
         </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
@@ -363,10 +365,7 @@
             </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
-            <outputParameters>
-                <assignToReference>selectedLead</assignToReference>
-                <name>selectedRecord</name>
-            </outputParameters>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
         </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
@@ -411,27 +410,11 @@
         <isOutput>false</isOutput>
     </variables>
     <variables>
-        <name>selectedCases</name>
-        <dataType>SObject</dataType>
-        <isCollection>true</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
-        <objectType>Case</objectType>
-    </variables>
-    <variables>
         <name>selectedFiles</name>
         <dataType>SObject</dataType>
         <isCollection>true</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
         <objectType>ContentVersion</objectType>
-    </variables>
-    <variables>
-        <name>selectedLead</name>
-        <dataType>SObject</dataType>
-        <isCollection>false</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
-        <objectType>Lead</objectType>
     </variables>
 </Flow>

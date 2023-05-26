@@ -3,6 +3,10 @@
     <label>SLAccApex_OpptiesCount</label>
     <protected>false</protected>
     <values>
+        <field>smartlists__Badge_Style_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>smartlists__Column_Width__c</field>
         <value xsi:nil="true"/>
     </values>
@@ -25,6 +29,10 @@
     <values>
         <field>smartlists__Display_Type__c</field>
         <value xsi:type="xsd:string">INTEGER</value>
+    </values>
+    <values>
+        <field>smartlists__Display_as_Badge__c</field>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>smartlists__Field_Label__c</field>
@@ -73,6 +81,10 @@
     <values>
         <field>smartlists__Sortable_in_List__c</field>
         <value xsi:type="xsd:string">Yes if Sortable</value>
+    </values>
+    <values>
+        <field>smartlists__Tile_Header__c</field>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>smartlists__Wrap_Text__c</field>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>SLFilesCaseAccount</label>
+    <label>SLHomeApex</label>
     <protected>false</protected>
     <values>
         <field>smartlists__Allowed_Extensions__c</field>
@@ -8,15 +8,15 @@
     </values>
     <values>
         <field>smartlists__Data_Provider_Class__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">SLHomePageApexWithoutParent</value>
     </values>
     <values>
         <field>smartlists__Data_Source_Type__c</field>
-        <value xsi:type="xsd:string">Files</value>
+        <value xsi:type="xsd:string">Apex Data Source</value>
     </values>
     <values>
         <field>smartlists__Default_Sort_Direction__c</field>
-        <value xsi:type="xsd:string">desc</value>
+        <value xsi:type="xsd:string">asc</value>
     </values>
     <values>
         <field>smartlists__Default_Sort_Field__c</field>
@@ -48,11 +48,11 @@
     </values>
     <values>
         <field>smartlists__List_Icon__c</field>
-        <value xsi:type="xsd:string">standard:file</value>
+        <value xsi:type="xsd:string">standard:opportunity</value>
     </values>
     <values>
         <field>smartlists__List_Label__c</field>
-        <value xsi:type="xsd:string">Files of the Account of this Case SmartList</value>
+        <value xsi:type="xsd:string">Home Page Apex SmartList</value>
     </values>
     <values>
         <field>smartlists__Max_Row_Selected__c</field>
@@ -72,15 +72,15 @@
     </values>
     <values>
         <field>smartlists__Parent_Key_Field__c</field>
-        <value xsi:type="xsd:string">AccountId</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>smartlists__Parent_Object__c</field>
-        <value xsi:type="xsd:string">Case</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>smartlists__Row_Key__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">RowKey</value>
     </values>
     <values>
         <field>smartlists__Row_Number_Start__c</field>
@@ -132,11 +132,11 @@
     </values>
     <values>
         <field>smartlists__Show_SOSL_Search__c</field>
-        <value xsi:type="xsd:string">No</value>
+        <value xsi:type="xsd:string">Component</value>
     </values>
     <values>
         <field>smartlists__Show_SOSL_Search_in_Quick_Filter__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>smartlists__Tile_Layout__c</field>
