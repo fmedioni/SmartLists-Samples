@@ -12,7 +12,7 @@
     </values>
     <values>
         <field>smartlists__Data_Source_Type__c</field>
-        <value xsi:type="xsd:string">SOQL with Sharing</value>
+        <value xsi:type="xsd:string">SOQL without Sharing</value>
     </values>
     <values>
         <field>smartlists__Default_Sort_Direction__c</field>
@@ -21,6 +21,14 @@
     <values>
         <field>smartlists__Default_Sort_Field__c</field>
         <value xsi:type="xsd:string">CreatedDate</value>
+    </values>
+    <values>
+        <field>smartlists__Disable_Autoload__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Disable_Paging__c</field>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>smartlists__Display_Mode__c</field>
@@ -47,6 +55,14 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
+        <field>smartlists__Filters_Max_Height__c</field>
+        <value xsi:type="xsd:double">400.0</value>
+    </values>
+    <values>
+        <field>smartlists__Filters_Panel_Layout__c</field>
+        <value xsi:type="xsd:string">LeftOD</value>
+    </values>
+    <values>
         <field>smartlists__List_Icon__c</field>
         <value xsi:nil="true"/>
     </values>
@@ -64,7 +80,7 @@
     </values>
     <values>
         <field>smartlists__Number_of_Records_per_Page__c</field>
-        <value xsi:type="xsd:double">4.0</value>
+        <value xsi:type="xsd:double">8.0</value>
     </values>
     <values>
         <field>smartlists__Parent_Id_Field__c</field>
@@ -100,6 +116,10 @@
     </values>
     <values>
         <field>smartlists__SOQL_Scope_All__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__SOQL_Scope_My_Queues__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>

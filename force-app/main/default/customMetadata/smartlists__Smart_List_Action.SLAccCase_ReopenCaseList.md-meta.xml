@@ -23,6 +23,10 @@
         <value xsi:type="xsd:string">SLCases_Re_Open_Cases</value>
     </values>
     <values>
+        <field>smartlists__List_Action_Availibility__c</field>
+        <value xsi:type="xsd:string">Selected</value>
+    </values>
+    <values>
         <field>smartlists__Refresh_After_Execution__c</field>
         <value xsi:type="xsd:string">List</value>
     </values>

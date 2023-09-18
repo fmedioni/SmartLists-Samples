@@ -1,0 +1,4 @@
+global enum ConnectStatusCheckType {
+DATAGENERATIONSTATUSCHECK,
+TRAININGSTATUSCHECK
+}

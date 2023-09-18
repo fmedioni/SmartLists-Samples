@@ -23,6 +23,14 @@
         <value xsi:type="xsd:string">CreatedDate</value>
     </values>
     <values>
+        <field>smartlists__Disable_Autoload__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Disable_Paging__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
         <field>smartlists__Display_Mode__c</field>
         <value xsi:type="xsd:string">Table</value>
     </values>
@@ -45,6 +53,14 @@
     <values>
         <field>smartlists__Enable_New_Record_Action__c</field>
         <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Filters_Max_Height__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Filters_Panel_Layout__c</field>
+        <value xsi:type="xsd:string">LeftOD</value>
     </values>
     <values>
         <field>smartlists__List_Icon__c</field>
@@ -101,6 +117,10 @@
     <values>
         <field>smartlists__SOQL_Scope_All__c</field>
         <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>smartlists__SOQL_Scope_My_Queues__c</field>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>smartlists__SOQL_Scope_My_Subordinates__c</field>

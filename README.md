@@ -1,4 +1,4 @@
-# Smart Lists Samples for Summer 23
+# Smart Lists Samples for Summer 23 3.2
 
 In this repository, you will find several predefined Smart Lists covering all the use cases of the component.
 
@@ -10,10 +10,11 @@ This list includes:
 - Use of the RecordType field (if no record types are defined on Lead in your org, you need to delete the field definition SLHomeLeads_RecordType)
 - Display HTML formula as an image. Requires a field called Visual_Rating__c displaying a variable image depending on the lead rating (field definition = SLHomeLeads_Rating)
 - Use of the Owner field
+- Display clickable url labels (Company and Website must be populated on the test records)
 - Standard actions Create, Update, and Delete records with Record Type support if available on Lead
 - Custom Screenflow actions for assigning leads to a new owner
 
-This list can be added to a Home Page
+This list can be added to the Home Page
 
 ## STHomeLeads: Tiles of Leads
 
@@ -31,7 +32,16 @@ This list includes:
 - Use of the RecordType field (if no record types are defined on Lead in your org, you need to delete the field definition SLHomeLeads_RecordType)
 - Use of the Owner field
 
-This list can be added to a Home Page
+This list can be added to the Home Page
+
+## SLSearchLeads: Search list for Leads
+
+This list includes:
+- Filters Panel for search mode
+- Records management parameters for search mode
+- Custom action on retrieved records for adding them to a campaign
+
+This list MUST be added to a Campaign Detail Page
 
 ## SLHomeApex: List based on an Apex Data Source
 

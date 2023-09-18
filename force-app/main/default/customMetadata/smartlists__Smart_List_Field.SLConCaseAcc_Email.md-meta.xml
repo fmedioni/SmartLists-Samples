@@ -87,6 +87,10 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
+        <field>smartlists__URL_Value__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>smartlists__Wrap_Text__c</field>
         <value xsi:type="xsd:boolean">false</value>
     </values>

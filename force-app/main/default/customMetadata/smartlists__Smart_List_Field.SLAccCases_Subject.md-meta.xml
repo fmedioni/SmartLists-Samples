@@ -24,7 +24,7 @@
     </values>
     <values>
         <field>smartlists__Display_Position_in_Quick_Filters__c</field>
-        <value xsi:type="xsd:double">3.0</value>
+        <value xsi:type="xsd:double">9.0</value>
     </values>
     <values>
         <field>smartlists__Display_Type__c</field>
@@ -85,6 +85,10 @@
     <values>
         <field>smartlists__Tile_Header__c</field>
         <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__URL_Value__c</field>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>smartlists__Wrap_Text__c</field>
