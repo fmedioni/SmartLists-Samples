@@ -2,6 +2,13 @@
 
 In this repository, you will find several predefined Smart Lists covering all the use cases of the component.
 
+## Scratch Org Setup
+All you need is a basic configuration for your scratch org to run these samples. However, upon creating your scratch org, and prior to deploying this metadata, you'll need to install the Smart Lists package to deploy the metadata. 
+
+With your configuration set to your scratch org (`sf config set target-org=`), or by appending your scratch org alias to the `--target-org` flag (and adding this to the command below), you can use this command to install the package:
+
+`sf package install --package SmartLists -w 10 --no-prompt`
+
 ## SLHomeLeads: List of Leads
 
 This list includes:
