@@ -5,8 +5,11 @@
       "default": true
     }
   ],
-  "name": "Trial0SmartListsSamples",
+  "name": "SmartLists-Samples",
   "namespace": "",
+  "packageAliases": {
+    "SmartLists": "04t8b000000qWZwAAM"
+  },
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "56.0"
+  "sourceApiVersion": "59.0"
 }
