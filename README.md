@@ -1,4 +1,4 @@
-# Smart Lists Samples for Summer 23 3.2
+# Smart Lists Samples for Spring 24 3.4
 
 In this repository, you will find several predefined Smart Lists covering all the use cases of the component.
 
@@ -20,7 +20,7 @@ This list can be added to the Home Page
 
 This list includes:
 - Customizable Tile Header on Lead Name and Status
-- Dynamic Badge Styling for Lead Rating. Pre-requisited, create a formula field for the styling:
+- Dynamic Badge Styling for Lead Rating. Pre-requisite, create a text formula field for the styling:
     - Label: Rating Badge Style
     - Name: Rating_Badge_Style__c
     - Type: Formula / Text
@@ -37,6 +37,22 @@ This list can be added to the Home Page
 ## SLSearchLeads: Search list for Leads
 
 This list includes:
+- Dynamic Field Styling. Pre-requisite, create a text formula field for the styling:
+    - Label: Rating Style
+    - Field Name: Rating_Style__c
+    - Formula: 
+            IF ( ISPICKVAL( Rating , 'Hot'), "icn:utility:priority;icc:seagreen;icp:hidevalue",
+            (IF ( ISPICKVAL( Rating , 'Warm'), "icn:utility:priority;icc:rgb(255, 215, 0);icp:hidevalue", 
+            (IF ( ISPICKVAL( Rating , 'Cold'), "icn:utility:priority;icc:blue;icp:hidevalue",
+                "icn:utility:question_mark;icp:hidevalue")))))
+- Dynamic HTML of a cell. Pre-requisite, create a text formula field for the HTML:
+    - Label: Rating Style
+    - Field Name: Rating_Style__c
+    - Formula:
+           CASE(Rating,
+            "Hot", IMAGE("/resource/GraphicsPackNew/silk/16/silk/flag_green.png", "Hot"),
+            "Warm", IMAGE("/resource/GraphicsPackNew/silk/16/silk/flag_yellow.png", "Warm"),
+            "Cold", IMAGE("/resource/GraphicsPackNew/silk/16/silk/flag_blue.png","Cold"), "")
 - Filters Panel for search mode
 - Records management parameters for search mode
 - Custom action on retrieved records for adding them to a campaign

@@ -24,7 +24,7 @@
     </values>
     <values>
         <field>smartlists__Display_Position_in_Quick_Filters__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>smartlists__Display_Type__c</field>
@@ -35,12 +35,24 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
+        <field>smartlists__Dynamic_Style_Field__c</field>
+        <value xsi:type="xsd:string">Rating_Style__c</value>
+    </values>
+    <values>
+        <field>smartlists__Editable_in_List__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Field_Alignment__c</field>
+        <value xsi:type="xsd:string">Center</value>
+    </values>
+    <values>
         <field>smartlists__Field_Label__c</field>
         <value xsi:nil="true"/>
     </values>
     <values>
         <field>smartlists__Field_Name__c</field>
-        <value xsi:type="xsd:string">Visual_Rating__c</value>
+        <value xsi:type="xsd:string">Rating</value>
     </values>
     <values>
         <field>smartlists__File_Edit__c</field>
@@ -67,8 +79,12 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
+        <field>smartlists__Number_of_columns__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>smartlists__Quick_Filters_Field__c</field>
-        <value xsi:type="xsd:string">No</value>
+        <value xsi:type="xsd:string">Yes if Filterable</value>
     </values>
     <values>
         <field>smartlists__Smart_List_Definition__c</field>
@@ -80,11 +96,15 @@
     </values>
     <values>
         <field>smartlists__Sortable_in_List__c</field>
-        <value xsi:type="xsd:string">Yes if Sortable</value>
+        <value xsi:type="xsd:string">No</value>
     </values>
     <values>
         <field>smartlists__Tile_Header__c</field>
         <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__URL_Target__c</field>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>smartlists__URL_Value__c</field>

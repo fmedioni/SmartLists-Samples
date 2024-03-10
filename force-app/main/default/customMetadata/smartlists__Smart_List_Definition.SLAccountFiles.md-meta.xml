@@ -68,7 +68,7 @@
     </values>
     <values>
         <field>smartlists__List_Label__c</field>
-        <value xsi:type="xsd:string">Account Files SmartList</value>
+        <value xsi:type="xsd:string">Sample Files List</value>
     </values>
     <values>
         <field>smartlists__Max_Row_Selected__c</field>
@@ -159,8 +159,16 @@
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
+        <field>smartlists__Table_Height__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>smartlists__Tile_Layout__c</field>
         <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Wrap_Column_Headers__c</field>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>smartlists__Wrap_Text_Max_Lines__c</field>

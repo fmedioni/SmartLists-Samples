@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "00541000001kuohAAA",
+      "createdByName": "Francois Medioni",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "labels/CustomLabels.labels",
+      "fullName": "CustomLabels",
+      "id": "",
+      "lastModifiedById": "00541000001kuohAAA",
+      "lastModifiedByName": "Francois Medioni",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomLabels"
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-global enum CommerceSearchAttributeType {
-CUSTOM,
-PRODUCTATTRIBUTE,
-PRODUCTCATEGORY,
-STANDARD
-}

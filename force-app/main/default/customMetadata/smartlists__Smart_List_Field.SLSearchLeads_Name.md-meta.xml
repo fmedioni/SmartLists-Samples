@@ -35,6 +35,18 @@
         <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
+        <field>smartlists__Dynamic_Style_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>smartlists__Editable_in_List__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Field_Alignment__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>smartlists__Field_Label__c</field>
         <value xsi:type="xsd:string">Name</value>
     </values>
@@ -52,7 +64,7 @@
     </values>
     <values>
         <field>smartlists__Hyperlink_to_Detail_Id_Field__c</field>
-        <value xsi:type="xsd:string">Id</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>smartlists__List_Field__c</field>
@@ -65,6 +77,10 @@
     <values>
         <field>smartlists__Lookup_in_Quick_Filters__c</field>
         <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__Number_of_columns__c</field>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>smartlists__Quick_Filters_Field__c</field>
@@ -85,6 +101,10 @@
     <values>
         <field>smartlists__Tile_Header__c</field>
         <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>smartlists__URL_Target__c</field>
+        <value xsi:nil="true"/>
     </values>
     <values>
         <field>smartlists__URL_Value__c</field>

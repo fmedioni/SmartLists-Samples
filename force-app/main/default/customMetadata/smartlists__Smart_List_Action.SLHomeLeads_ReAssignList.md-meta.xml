@@ -12,7 +12,7 @@
     </values>
     <values>
         <field>smartlists__Custom_Permission__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">SL_Reassign_Leads</value>
     </values>
     <values>
         <field>smartlists__Display_Position__c</field>
